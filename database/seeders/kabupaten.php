@@ -25,7 +25,6 @@ class kabupaten extends Seeder
             ['nama' => 'Kabupaten Bandung', 'provinsi_id' => $provinsijabarId],
             ['nama' => 'Kota Cimahi', 'provinsi_id' => $provinsijabarId],
             ['nama' => 'Kabupaten Bandung Barat', 'provinsi_id' => $provinsijabarId],
-            ['nama' => 'Kabupaten Garut', 'provinsi_id' => $provinsijabarId],
 
             // JATENG
             ['nama' => 'Kabupaten Banyumas', 'provinsi_id' => $provinsijatengId],
