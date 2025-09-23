@@ -21,25 +21,24 @@ body {
     --light: #ecf0f1;
 }
 
-/* Navbar */
 .navbar .nav-item {
-    list-style: none; /* hilangkan titik hitam */
+    list-style: none; 
 }
 
 .navbar .nav-link {
     position: relative;
-    text-decoration: none !important; /* hilangkan underline default */
+    text-decoration: none !important; 
     transition: color 0.3s ease;
 }
 
 .navbar .nav-link::after {
     content: "";
     position: absolute;
-    bottom: -2px; /* beri jarak dari teks */
+    bottom: -2px; 
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--secondary); /* pakai warna tema */
+    background-color: var(--secondary); 
     transition: width 0.3s ease;
 }
 
@@ -48,7 +47,7 @@ body {
     width: 100%;
 }
 
-/* Hero Section */
+
 .hero-section {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     padding: 100px 0;
@@ -84,22 +83,6 @@ body {
     color: var(--secondary);
     margin-bottom: 1rem;
 }
-
-/* Buttons
-.btn-primary {
-    background-color: var(--secondary);
-    border-color: var(--secondary);
-    padding: 12px 30px;
-    font-weight: 600;
-    transition: all 0.5s ease;
-}
-
-.btn-primary:hover {
-    background-color: blue;
-    border-color: white;
-    transform: translateY(-4px);
-} */
-
 .btn-outline-primary {
     color: var(--secondary);
     border-color: var(--secondary);
@@ -114,7 +97,6 @@ body {
     transform: translateY(-4px);
 }
 
-/* Step Number */
 .step-number {
     width: 50px;
     height: 50px;
@@ -129,7 +111,6 @@ body {
     margin: 0 auto 1rem;
 }
 
-/* Footer */
 footer {
     background-color: var(--primary);
     color: white;
@@ -155,7 +136,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
-/* Cards */
+
 .card {
     border: none;
     border-radius: 10px;
@@ -166,7 +147,7 @@ h2 {
     transform: translateY(-5px);
 }
 
-/* CTA Section */
+
 .cta-section {
     background-color: var(--secondary);
     color: white;
@@ -225,18 +206,18 @@ h2 {
     }
 }
 
-/* Scroll Margin */
+
 #home, #tentang, #cara-kerja, #kontak {
     scroll-margin-top: 80px;
 }
 
-/* Navbar Toggler */
+
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: none;
     box-shadow: none;
 }
-/* Hilangkan garis bawah pada dropdown profil */
+
 .nav-item.dropdown .nav-link::after {
     display: none;
 }
@@ -276,8 +257,8 @@ h2 {
                     <a class="nav-link" href="#kontak">Kontak</a>
                 </li>
 
-                @auth
                 <!-- Dropdown Profile -->
+                @auth
                 <li class="nav-item dropdown ms-3">
                     <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" 
                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -367,8 +348,6 @@ h2 {
   </div>
 </section>
 
-
-    <!-- How It Works -->
     <section class="py-5 bg-light" id="cara-kerja">
         <div class="container">
             <div class="row text-center mb-5">
@@ -448,8 +427,8 @@ h2 {
         </div>
     </footer>
 
+    <!-- Modal -->
 @if(session('success'))
-<!-- Modal -->
 <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
