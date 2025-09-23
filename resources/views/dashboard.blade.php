@@ -352,7 +352,7 @@ h2 {
           Subvasi adalah platform pengajuan inovasi yang memudahkan masyarakat untuk
           berbagi ide-ide kreatif, berkolaborasi, dan mengembangkan inovasi
           yang bermanfaat bagi banyak orang. Website ini hadir untuk menjadi jembatan
-          antara inovator 
+          antara inovator dengan pihak-pihak yang siap mendukung ide mereka.
         </p>
       </div>
     </div>
