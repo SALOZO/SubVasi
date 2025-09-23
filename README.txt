@@ -25,6 +25,15 @@ Jalankan perintah:
 php artisan vendor:publish --provider="Anhskohbo\NoCaptcha\NoCaptchaServiceProvider"
 
 Tambahkan baris berikut ke dalam file .env:
-NOCAPTCHA_SITEKEY=]
+NOCAPTCHA_SITEKEY=
 NOCAPTCHA_SECRET=
+
+Migrations Database dan table
+jalankan perintah:
+php artisan migrate
+
+dan jalankan 
+php artisan db:seed
+
+
 
