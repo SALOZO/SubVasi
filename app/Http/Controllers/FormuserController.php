@@ -41,7 +41,7 @@ public function submitProfile(Request $request)
         'kabupaten_id' => 'required|exists:kabupaten,id',
         'kecamatan_id' => 'required|exists:kecamatan,id',
         'desa_id' => 'required|exists:desa,id',
-        'foto' => 'nullable|image|max:2048',
+        'foto' => 'required|image|max:2048',
     ]);
 
     $data = [
