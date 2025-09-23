@@ -4,6 +4,8 @@ Install Dependencies
 Jalankan perintah:
 composer install
 
+Buat file dengan nama .env
+
 Generate Application Key
 Jalankan perintah:
 php artisan key:generate
@@ -25,3 +27,4 @@ php artisan vendor:publish --provider="Anhskohbo\NoCaptcha\NoCaptchaServiceProvi
 Tambahkan baris berikut ke dalam file .env:
 NOCAPTCHA_SITEKEY=]
 NOCAPTCHA_SECRET=
+
