@@ -1,11 +1,27 @@
+Project Setup
+
+Install Dependencies
+Jalankan perintah:
+composer install
+
+Generate Application Key
+Jalankan perintah:
+php artisan key:generate
+
+Link Storage to Public
+Jalankan perintah:
+php artisan storage:link
+
 Setup reCAPTCHA
 
-1. Install package:
-   composer require anhskohbo/no-captcha
+Install Package
 
-2. Publish konfigurasi:
-   php artisan vendor:publish --provider="Anhskohbo\NoCaptcha\NoCaptchaServiceProvider"
+Jalankan perintah:
+composer require anhskohbo/no-captcha
 
-3. Tambahkan SITE_KEY dan SECRET_KEY di file .env:
-   NOCAPTCHA_SITEKEY=your_site_key
-   NOCAPTCHA_SECRET=your_secret_key
+Jalankan perintah:
+php artisan vendor:publish --provider="Anhskohbo\NoCaptcha\NoCaptchaServiceProvider"
+
+Tambahkan baris berikut ke dalam file .env:
+NOCAPTCHA_SITEKEY=]
+NOCAPTCHA_SECRET=
