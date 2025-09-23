@@ -35,12 +35,6 @@ class kecamatan extends Seeder
             ['nama' => 'Lembang', 'kabupaten_id' =>  $kabupatenCache['Kabupaten Bandung Barat']],
             ['nama' => 'Ngamprah', 'kabupaten_id' =>  $kabupatenCache['Kabupaten Bandung Barat']],
             ['nama' => 'Parongpong', 'kabupaten_id' =>  $kabupatenCache['Kabupaten Bandung Barat']],
-
-            // Kecamatan Kabupaten Garut
-            ['nama' => 'Garut Kota', 'kabupaten_id' => $kabupatenCache['Kabupaten Garut']],
-            ['nama' => 'Tarogong Kidul', 'kabupaten_id' => $kabupatenCache['Kabupaten Garut']],
-            ['nama' => 'Tarogong Kaler', 'kabupaten_id' => $kabupatenCache['Kabupaten Garut']],
-
             
 
             // ===============================================================================================
