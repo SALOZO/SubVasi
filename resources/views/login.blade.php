@@ -110,11 +110,6 @@
                         </div>
                     </div>
 
-                    <div class="gap-4 d-flex flex-column">
-                        <div class="mb-3 d-flex justify-content-between align-items-center">
-                            <a href="#" class="forgot-link">Forgot password?</a>
-                        </div>
-
                       {!! app('captcha')->display() !!}
                             @if ($errors->has('g-recaptcha-response'))
                             <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
