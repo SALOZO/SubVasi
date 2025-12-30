@@ -19,7 +19,6 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:8|confirmed',
             'phone' => 'required|string|max:15',
-            'g-recaptcha-response' => 'required|captcha',
         ]);
 
         // Simpan data user ke database (menggunakan model User)

@@ -316,7 +316,7 @@ h2 {
 
                 <!-- Gambar logo -->
                 <div class="col-lg-5 col-md-6 hero-logo-container order-lg-2 order-1 text-center">
-                    <img src="{{ asset('images/holo-removebg-preview.png') }}"
+                    <img src="{{ asset('images/test.png') }}"
                         alt="Subvasi Logo" class="hero-logo img-fluid mb-4 mb-md-0" style="max-height: 400px;">
                 </div>
             </div>
